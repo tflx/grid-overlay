@@ -40,7 +40,7 @@ class GridOverlay {
     this.grid.innerHTML = "";
     let columns = "";
     for (let index = 0; index < no; index++) {
-      columns += `<div class='grid-column'>${index}</div>`;
+      columns += `<div class='grid-column'>${index + 1}</div>`;
     }
     this.grid.innerHTML = columns;
   }
