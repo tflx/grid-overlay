@@ -59,6 +59,7 @@ const styles = `
   left: 0;
   width: 100%;
   height: 100%;
+  pointer-events: none;
 }
 
 .grid-container.hidden {
@@ -68,7 +69,6 @@ const styles = `
 .grid-container {
   position: relative;
   height: 100%;
-  pointer-events: none;
   padding: 0;
 }
 
@@ -96,5 +96,6 @@ const styles = `
   right: 10px;
   width: 26px;
   opacity: 0.2;
+  pointer-events: all;
 }
 `;

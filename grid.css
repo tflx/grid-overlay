@@ -11,6 +11,10 @@
   }
 }
 
+body {
+  margin: 0;
+}
+
 .grid {
   display: grid;
   grid-column-gap: var(--grid-gap);
