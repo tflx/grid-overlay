@@ -7,7 +7,7 @@ class GridOverlay {
     document.body.appendChild(this.overlay);
 
     this.grid = document.createElement("div");
-    this.grid.classList.add(gridClass, "grid-container");
+    this.grid.classList.add(gridClass, "grid-container", "hidden");
     this.overlay.appendChild(this.grid);
 
     const toggle = document.createElement("button");
@@ -60,6 +60,7 @@ const styles = `
   width: 100%;
   height: 100%;
   pointer-events: none;
+  visibility: visible;
 }
 
 .grid-container.hidden {
