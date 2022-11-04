@@ -74,7 +74,7 @@ const styles = `
 
 .grid-column {
   background-color: rgba(255, 0, 0, 0.1);
-  border-right: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
   color: #999;
   font-size: 10px;
   padding: 10px 0 0 1px;

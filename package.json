@@ -1,28 +1,27 @@
 {
-  "name": "static",
-  "version": "1.0.0",
-  "description": "This is a static template with no bundling",
-  "main": "index.html",
+  "name": "grid-debug-overlay",
+  "version": "1.0.1",
+  "description": "Grid overlay for debug purposes",
+  "main": "index.js",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/tflx/grid-overlay.git"
   },
   "keywords": [
-    "static",
-    "template",
-    "codesandbox"
+    "grid",
+    "debug",
+    "overlay",
+    "javascript",
+    "css",
+    "css-grid"
   ],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
+  "author": "Torben Larsen",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/tflx/grid-overlay/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
-  "devDependencies": {
-    "serve": "^11.2.0"
-  }
+  "homepage": "https://github.com/tflx/grid-overlay#readme"
 }
