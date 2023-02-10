@@ -56,6 +56,7 @@ export default GridOverlay;
 const styles = `
 .grid-overlay {
   position: fixed;
+  z-index: 999999;
   top: 0;
   left: 0;
   width: 100%;
