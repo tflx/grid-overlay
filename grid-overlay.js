@@ -15,14 +15,15 @@ class GridOverlay {
     this.overlay.appendChild(toggle);
     toggle.addEventListener("click", this.toggleOverlay);
 
-    this.render();
-    window.addEventListener("resize", this.render);
-
+    
     var css = document.createElement("style");
     css.type = "text/css";
     if (css.styleSheet) css.styleSheet.cssText = styles;
     else css.appendChild(document.createTextNode(styles));
     document.head.appendChild(css);
+    
+    this.render();
+    window.addEventListener("resize", this.render);
   }
 
   handleResize = () => {
