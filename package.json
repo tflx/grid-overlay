@@ -1,6 +1,6 @@
 {
   "name": "grid-debug-overlay",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Grid overlay for debug purposes",
   "main": "index.js",
   "scripts": {
